@@ -1,0 +1,245 @@
+body, html{
+    background-color: #ffffff !important;
+    cursor: none;
+}
+
+/*--------------------------------------Head_Text_Scroll--------------------------------------*/
+.header__panel_text_scroll{
+    margin-top: 750px;
+    position: relative;
+    padding: 30px 0;
+    font-family: Saol_title;
+    font-size: 100px;
+    color: #BCAF87;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: none;
+}
+
+.header__panel_text_scroll_box{
+    display: flex;
+    width: fit-content;
+    flex: auto;
+    flex-direction: row;
+}
+
+.header__panel_text_scroll_text{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 0 4px;
+}
+
+
+
+
+
+
+/*--------------------------------------Main--------------------------------------*/
+/*--------------------------------------Page1--------------------------------------*/
+main{
+    background-color: #ffffff !important;
+}
+.main__page1{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.main__page1_block_1{
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main__page1_block1 h2{
+    font-family: Saol_title, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    color: #272f3c;
+    cursor: none;
+    margin-top: 300px;
+}
+
+.main__page1_block1_txt1{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    text-align: center;
+}
+
+.main__page1_block1_txt1 span{
+    justify-content: center;
+    align-items: center;
+    font-family: General_sml, sans-serif;
+    font-size: 15px;
+    color: #BCAF87;
+    font-style: italic;
+}
+.main__page1_block1_txt1 h4{
+    justify-content: center;
+    align-items: center;
+    font-family: General_sml, sans-serif;
+    font-size: 15px;
+    color: #272f3c;
+    margin-bottom: 40px;
+}
+
+.main__page1_block1_txt2{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    text-align: center;
+}
+
+.main__page1_block1_txt2 h5{
+    justify-content: center;
+    align-items: center;
+    font-family: General_sml, sans-serif;
+    font-size: 13px;
+    color: #272f3c;
+    font-style: italic;
+}
+
+
+
+
+
+/*Block2*/
+.main__page1_block_2{
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main__page1_block2 h2{
+    font-family: Saol_title, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    color: #272f3c;
+    cursor: none;
+    margin-top: 70px;
+}
+
+.main__page1_block2_txt1{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.main__page1_block2_txt1 span{
+    justify-content: center;
+    align-items: center;
+    font-family: General_sml, sans-serif;
+    font-size: 15px;
+    color: #BCAF87;
+    font-style: italic;
+}
+.main__page1_block2_txt1 span{
+    justify-content: center;
+    align-items: center;
+    font-family: General_sml, sans-serif;
+    font-size: 15px;
+    color: #BCAF87;
+    font-style: italic;
+}
+
+
+/*Btn*/
+.btn a{
+    text-decoration: none;
+    font-family: Saol_title, sans-serif;
+    font-size: 40px;
+    color: #272f3c;
+    position: relative;
+    padding: 20px;
+    transition: .3s;
+    cursor: none;
+    width: 100%;
+}
+.btn a:after{
+    content: "";
+    position: absolute;
+    background-color: #272f3c;
+    height: 1px;
+    width: 100%;
+    right: 0;
+    bottom: +14px;
+    transition: .5s;
+    cursor: none;
+}
+.btn a:hover:after{
+    right: 0;
+    width: 0;
+    background-color: #BCAF87;
+    cursor: none;
+}
+.btn a:not(:hover):after{
+    left: 0;
+    width: 100%;
+    cursor: none;
+}
+.btn a:hover{
+    color: #BCAF87;
+    cursor: none;
+}
+
+.main__page1_block_2_buff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 40.5%;
+    margin-left: 40.5%;
+    z-index: 10;
+    cursor: none;
+}
+
+.main__page1_block_2_buff2{
+    left: 0;
+    position: relative;
+    padding: 0;
+    margin: 0; 
+    cursor: none;
+}
+.main__page1_block_2_buff2:after{
+    content: "";
+    position: absolute;
+    background-color: #272f3c;
+    height: 1px;
+    width: 100%;
+    right: 0;
+    top: -5px;
+    transition: .5s;
+    cursor: none;
+}
+.main__page1_block_2_buff2:hover:after{
+    right: 0;
+    width: 0;
+    background-color: #BCAF87;
+    cursor: none;
+}
+.main__page1_block_2_buff2:not(:hover):after{
+    left: 0;
+    width: 100;
+    cursor: none;
+}

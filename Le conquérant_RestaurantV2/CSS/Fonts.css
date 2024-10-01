@@ -1,0 +1,14 @@
+@font-face {
+    font-family: General_sml;
+    src: url(../FONTS/FuturaStdLight.otf);
+}
+
+@font-face {
+    font-family: Saol;
+    src: url(../FONTS/SaolDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: Saol_title;
+    src: url(../FONTS/SaolDisplay-Light.ttf);
+}

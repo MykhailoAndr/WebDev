@@ -1,0 +1,49 @@
+html,head,body,header, main, footer{
+    margin: 0;
+    scroll-behavior:smooth scroll;
+    cursor: none;
+    user-select: none;
+    background-color: #272f3c;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-x: clip !important;
+}
+
+
+/*------------------------SCROLLBAR------------------------*/
+html::-webkit-scrollbar{
+    display: none;
+}
+html{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+
+
+
+
+
+/*------------------------Cursor------------------------*/
+.cursor{
+    pointer-events: none;
+    position: fixed;
+    padding: 0.8rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: transform 0.3s ease;
+    z-index: 10000;
+    transform: translate(-50%, -50%);
+    opacity: .8;
+}
+
+.cursor_link{
+    transition: all 0.3s ease;
+}
+
+
+
+
+/*------------------------Preloader------------------------*/
