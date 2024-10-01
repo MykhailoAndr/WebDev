@@ -1,0 +1,1 @@
+Pages were made by using html, css, javascript, and some framworks for animations. I didn`t made site responsive for all devices, so if there some issues, please whtach a video in which I am using site.
